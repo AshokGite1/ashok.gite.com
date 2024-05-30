@@ -1,0 +1,10 @@
+package in.com;
+
+public class Petrol implements IEngine {
+
+	public boolean run() {
+	System.out.println("Petrol method");
+		
+	}
+
+}

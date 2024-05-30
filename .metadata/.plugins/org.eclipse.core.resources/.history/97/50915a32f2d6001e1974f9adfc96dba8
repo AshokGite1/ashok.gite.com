@@ -1,0 +1,10 @@
+package in.com;
+
+public class Desel  implements IEngine{
+
+	public void run() {
+		System.out.println("Desel method");
+		
+	}
+
+}

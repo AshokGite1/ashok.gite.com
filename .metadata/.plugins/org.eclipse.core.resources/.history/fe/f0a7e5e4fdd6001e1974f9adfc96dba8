@@ -1,0 +1,23 @@
+package in.com;
+
+public class Car {
+	
+	public IEngine eng;
+	
+	public Car() {
+		
+	}
+	
+	public void driver() {
+	  boolean status = eng.start();
+	  
+	  if(status) {
+		  System.out.println("Journy is started");
+		  
+	  }
+	  else
+		  System.out.println("journy is not started");
+		
+	}
+
+}

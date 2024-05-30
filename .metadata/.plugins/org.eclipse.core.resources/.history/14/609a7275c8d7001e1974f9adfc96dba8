@@ -1,0 +1,10 @@
+package in.com;
+
+public class CreaditCardPayment implements IPayment {
+
+	public boolean pay(Double amt) {
+		// TODO Auto-generated method stub
+		return true;
+	}
+
+}

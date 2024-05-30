@@ -1,0 +1,19 @@
+package in.com;
+
+public class PaymentProcesser {
+	
+	IPayment iPayment;
+	
+	public void processPayment(IPayment amt) {
+		
+	boolean status = iPayment.pay(2000.00);
+	
+	if(status) {
+		System.out.println("sucessfully process");
+		
+	}else
+		System.out.println("not ");
+		
+	}
+
+}
